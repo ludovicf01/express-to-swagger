@@ -1,6 +1,12 @@
 import * as express from "express";
 import * as bodyParser from "body-parser";
-import { mainRoutes } from "./routes/MainRoutes";
+import { mainRoutes } from './routes/MainRoutes';
+
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('../swagger.json');
+
+mainRoutes.use('/swagger', swaggerUi.serve);
+mainRoutes.get('/swagger', swaggerUi.setup(swaggerDocument));
 
 class App {
   public app: express.Application;
