@@ -13,6 +13,13 @@ Clone this repository and install the dependencies
     Clone this repository
     npm install
 
+
+# Starting app
+
+```
+$ yarn dev
+```
+
 # Learning
 
 I use the tuto.
