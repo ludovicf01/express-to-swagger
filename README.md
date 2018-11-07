@@ -9,6 +9,7 @@ Install Node.js using either a [package manager](https://nodejs.org/en/download/
 Clone this repository and install the dependencies
     
     Install Node.js
+    Install yarn
     Clone this repository
     npm install
 
