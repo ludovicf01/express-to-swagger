@@ -3,7 +3,7 @@ import * as bodyParser from "body-parser";
 import { mainRoutes } from './routes/MainRoutes';
 
 const swaggerUi = require('swagger-ui-express');
-const swaggerDocument = require('../swagger.json');
+const swaggerDocument = require('./swagger/swagger.json');
 
 mainRoutes.use('/swagger', swaggerUi.serve);
 mainRoutes.get('/swagger', swaggerUi.setup(swaggerDocument));

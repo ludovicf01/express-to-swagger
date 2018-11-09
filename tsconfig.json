@@ -8,7 +8,9 @@
       "lib": ["dom", "esnext"],
       "outDir": "./dist",
       "baseUrl": "./src",
-      "alwaysStrict": true
+      "alwaysStrict": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
     },
     "include": ["src/**/*.ts"],
     "exclude": ["node_modules"]

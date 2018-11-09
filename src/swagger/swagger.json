@@ -1,0 +1,36 @@
+{
+	"basePath": "",
+	"consumes": [
+		"application/json"
+	],
+	"definitions": {},
+	"info": {
+		"title": "express-rest-api",
+		"version": "1.0.0",
+		"license": {
+			"name": "MIT"
+		}
+	},
+	"paths": {
+		"/": {
+			"get": {
+				"operationId": "Config",
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"204": {
+						"description": "No content"
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		}
+	},
+	"produces": [
+		"application/json"
+	],
+	"swagger": "2.0",
+	"securityDefinitions": {}
+}

@@ -28,8 +28,17 @@ Create simple api rest :
 
 Install and read documention Swagger UI Express :
 > https://www.npmjs.com/package/swagger-ui-express
+
 **&**
+
 >https://swagger.io/specification/
+
+Auto generate swagger.json
+> https://www.rajram.net/node-101-part-4-auto-generate-and-register-routes-in-node-for-web-apis-2/
+
+**&**
+
+> https://www.rajram.net/node-101-part-5-auto-generate-swagger-for-your-web-api-and-use-swaggerui-to-try-it-out/
 
 # Preview
 ![demo](screenshots/screen00.png)
